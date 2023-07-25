@@ -1,9 +1,12 @@
 import "./App.css";
+import NavBar from "./component/navbar";
+import Header from "./component/header";
 
 function App() {
   return (
     <div>
-      <h1>gg</h1>
+      <NavBar />
+      <Header />
     </div>
   );
 }
