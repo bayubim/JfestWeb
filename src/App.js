@@ -2,7 +2,7 @@ import "./App.css";
 import NavBar from "./component/navbar";
 import Header from "./component/header";
 import About from "./component/about";
-import EventAddForm from "./component/EventList";
+import Footer from "./component/footer";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <NavBar />
       <Header />
       <About />
+      <Footer />
     </div>
   );
 }

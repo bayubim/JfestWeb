@@ -4,7 +4,7 @@ import Separator from "../asset/Separator.png";
 const About = () => {
   return (
     <div className="about">
-      <img src={AboutCard} alt="AboutCard" />
+      <img className="about-card" src={AboutCard} alt="AboutCard" />
 
       <div>
         <h1>
