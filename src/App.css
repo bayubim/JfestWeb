@@ -25,6 +25,15 @@ html {
     display: flex;
     justify-content: center;
   }
+  nav .container {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+  }
+
+  nav .nav-items {
+    display: flex;
+  }
 
   nav ul {
     display: none;
@@ -43,7 +52,7 @@ html {
     height: 90px;
   }
 
-  nav div {
+  nav .button-login {
     margin-left: 20%;
     margin-top: 15px;
     display: flex;
@@ -63,6 +72,7 @@ html {
     width: 100%;
     height: 120vh;
   }
+
   .header div {
     gap: 20px;
     text-align: center;
@@ -71,6 +81,14 @@ html {
     flex-direction: column;
     align-items: center;
   }
+
+  .scroll-down {
+    margin-top: 200px;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 30px;
+  }
+
   .header h1 {
     font-family: "Jack";
     color: white;
@@ -89,19 +107,27 @@ html {
     display: flex;
     justify-content: center;
   }
+  nav .container {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+  }
 
+  nav .nav-items {
+    display: flex;
+  }
   nav .logo {
     height: 64px;
   }
   nav ul {
     margin-top: 20px;
-    margin-left: 4%;
-    margin-right: 25%;
+    margin-left: 40px;
     display: flex;
     list-style-type: none;
     padding-left: 50px;
-    gap: 80px;
+    gap: 60px;
     border-left: 3px solid white;
+    justify-content: space-evenly;
   }
 
   nav li {
@@ -114,14 +140,15 @@ html {
     font-family: "Dreadful";
     text-decoration: none;
   }
-  nav div {
+
+  nav .button-login {
     margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  nav div .spiders {
+  nav .spiders {
     margin-top: -10px;
   }
 
@@ -145,9 +172,51 @@ html {
     flex-direction: column;
     align-items: center;
   }
+  .scroll-down {
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 30px;
+  }
+
   .header h1 {
     font-family: "Jack";
     color: white;
     font-size: 160px;
+  }
+
+  /* about */
+  .about {
+    padding: 100px 130px 0px 130px;
+    display: flex;
+    background-color: #0b0b0b;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about img {
+    margin-right: 50px;
+    width: 570px;
+  }
+
+  .about span.jcos {
+    font-size: 70px;
+  }
+
+  .about h1 {
+    font-family: "Jack";
+    color: white;
+    font-size: 120px;
+  }
+
+  .about .separator {
+    width: 150px;
+  }
+
+  .about p {
+    margin-top: 20px;
+    font-family: "Dreadful";
+    color: white;
+    font-size: 12px;
+    line-height: 3;
   }
 }

@@ -5,23 +5,28 @@ import Spiders from "../asset/Spiders.png";
 const NavBar = () => {
   return (
     <nav>
-      <img className="logo" src={Logo} alt="Backdrop" />
-      <ul>
-        <li>
-          <a href="#">BERANDA</a>
-        </li>
-        <li>
-          <a href="#">TENTANG</a>
-        </li>
-        <li>
-          <a href="#">KEGIATAN</a>
-        </li>
-      </ul>
-      <div>
-        <a>
-          <img className="btn-login" src={BtnDarkLogin} alt="BtnLogin" />
-        </a>
-        <img className="spiders" src={Spiders} alt="Spiders" />
+      <div className="container">
+        <div className="nav-items">
+          <img className="logo" src={Logo} alt="Backdrop" />
+          <ul>
+            <li>
+              <a href="/home">BERANDA</a>
+            </li>
+            <li>
+              <a href="/home">TENTANG</a>
+            </li>
+            <li>
+              <a href="/home">KEGIATAN</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="button-login">
+          <a>
+            <img className="btn-login" src={BtnDarkLogin} alt="BtnLogin" />
+          </a>
+          <img className="spiders" src={Spiders} alt="Spiders" />
+        </div>
       </div>
     </nav>
   );
