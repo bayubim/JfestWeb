@@ -10,7 +10,10 @@ html {
   overflow-x: hidden;
 }
 
-p{
+.google-p {
+  background-color: blue;
+}
+p {
   font-family: "Dreadful";
 }
 
@@ -128,10 +131,9 @@ p{
     margin-left: 80px;
     display: flex;
     list-style-type: none;
-    padding-left: 80px;
     gap: 80px;
+    padding-left: 80px;
     border-left: 3px solid white;
-    justify-content: space-evenly;
   }
 
   nav li {
