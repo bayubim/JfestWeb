@@ -22,7 +22,7 @@ const NavBar = () => {
         </div>
 
         <div className="button-login">
-          <a>
+          <a href="https://jfest7.myserverhost.my.id/api/auth/google">
             <img className="btn-login" src={BtnDarkLogin} alt="BtnLogin" />
           </a>
           <img className="spiders" src={Spiders} alt="Spiders" />
