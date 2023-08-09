@@ -32,8 +32,8 @@ const Footer = () => {
         ) : (
           <img className="background" src={background} alt="Backdrop" />
         )}
+        {/* <img className="foot-spider" src={spiders} alt="JFEST 7"></img> */}
         <footer className="footer-container">
-          {/* <img className="foot-spider" src={spiders} alt="JFEST 7"></img> */}
           <div className="left-footer">
             <div className="logos">
               <img src={imgLogo} alt="JFEST 7"></img>
