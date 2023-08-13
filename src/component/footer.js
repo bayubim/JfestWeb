@@ -35,7 +35,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="footer-div-container">
         {isMobile ? (
           <img className="background" src={imageSource} alt="Backdrop" />
         ) : (
