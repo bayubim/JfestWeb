@@ -131,7 +131,7 @@
   .background {
     min-height: 7.8125rem;
   }
-  .container {
+  .footer-div-container {
     height: 65rem;
     gap: 2rem;
     justify-content: unset;
