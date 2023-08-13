@@ -1,5 +1,6 @@
 import AboutCard from "../asset/About Card.png";
 import Separator from "../asset/Separator.png";
+import "../styles/about.css";
 
 const About = () => {
   return (
@@ -8,12 +9,12 @@ const About = () => {
 
       <div>
         <h1>
-          <span class="jfest">JFEST</span> <br />
-          <span class="jcos">
+          <span className="jfest">JFEST</span> <br />
+          <span className="jcos">
             <sup>BY</sup> JCOS
           </span>
         </h1>
-        
+
         <img className="separator" src={Separator} alt="Separator" />
 
         <p>

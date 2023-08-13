@@ -88,7 +88,7 @@ const Form = () => {
                   d="M6 11.7105L11.0323 5L18 13.6842L11.0323 20L6 11.7105Z"
                   fill="#DD614B"
                   stroke="white"
-                  stroke-opacity="0.24"
+                  strokeOpacity="0.24"
                 />
               </svg>
               <p>Lomba</p>

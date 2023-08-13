@@ -1,6 +1,7 @@
 import Logo from "../asset/Logo JFest Large.png";
 import BtnDarkLogin from "../asset/BtnDarkLogin.png";
 import Spiders from "../asset/Spiders.png";
+import "../styles/navbar.css";
 
 const NavBar = () => {
   return (

@@ -4,6 +4,7 @@ import BackdropMobile from "../asset/BackdropMobile.png";
 import Separator from "../asset/Separator.png";
 import BtnKegiatan from "../asset/BtnDarkKegiatan.png";
 import ScrollDown from "../asset/ScrollDown.png";
+import "../styles/header.css";
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
