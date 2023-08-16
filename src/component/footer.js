@@ -8,7 +8,7 @@ import {
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
 import textLogo from "../asset/jfest-text-logo.png";
-import imgLogo from "../asset/Logo JFest Large.png";
+import imgLogo from "../asset/Logo JFest Large.svg";
 import background from "../asset/footer-bg.png";
 import footermbg from "../asset/footer-mobile-bg.png";
 import leftWeb from "../asset/footer-left-web.png";

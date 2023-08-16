@@ -49,15 +49,22 @@ nav .spiders {
   nav ul {
     display: none;
   }
+
   nav .logo {
     height: 70px;
+  }
+
+  nav div a .btn-login {
+    height: 40px;
+  }
+
+  nav div .spiders {
+    margin-top: -10px;
+    height: 90px;
   }
 
   nav .button-login {
     margin-left: 20%;
     margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }

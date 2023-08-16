@@ -12,6 +12,7 @@
 }
 .header div {
   gap: 20px;
+  margin-top: -50px;
   text-align: center;
   position: absolute;
   display: flex;
@@ -30,10 +31,14 @@
   font-size: 160px;
 }
 
+.button-kegiatan {
+  height: 40px;
+}
+
 @media (max-width: 769px) {
   /* header */
   .scroll-down {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
 
   .header h1 {

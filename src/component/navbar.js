@@ -1,4 +1,4 @@
-import Logo from "../asset/Logo JFest Large.png";
+import Logo from "../asset/Logo JFest Large.svg";
 import BtnDarkLogin from "../asset/BtnDarkLogin.png";
 import Spiders from "../asset/Spiders.png";
 import "../styles/navbar.css";

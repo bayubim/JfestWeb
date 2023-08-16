@@ -1,0 +1,58 @@
+.main-event {
+  background-color: #103b43;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.background-main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.ticket {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.ticket div {
+  flex-direction: column;
+  display: flex;
+  align-items: end;
+}
+.ticket-event {
+  width: 50vw;
+}
+.ticket-date {
+  width: 20vw;
+  height: 25vw;
+}
+.spider {
+  width: 20%;
+  margin-right: 50px;
+}
+
+@media (max-width: 769px) {
+  .ticket {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .ticket .ticket-event {
+    width: 80%;
+    align-self: center;
+  }
+  .ticket-date {
+    width: 80%;
+    height: 200px;
+  }
+  .spider {
+    display: none;
+  }
+}
