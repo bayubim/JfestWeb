@@ -7,24 +7,27 @@ import ScrollDown from "../asset/ScrollDown.png";
 import "../styles/header.css";
 
 const Header = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 769);
 
   useEffect(() => {
-    const maxWidth = window.innerWidth;
-    if (maxWidth <= 769) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 769);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (
     <div className="header">
-      {isMobile ? (
-        <img className="backdrop" src={BackdropMobile} alt="Backdrop" />
-      ) : (
-        <img className="backdrop" src={Backdrop} alt="Backdrop" />
-      )}
+      <img
+        className="backdrop"
+        src={isMobile ? BackdropMobile : Backdrop}
+        alt="Backdrop"
+      />
       <div>
         <h1>
           HYAKKI <br />

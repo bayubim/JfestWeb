@@ -1,0 +1,28 @@
+.side-event {
+  background-color: #0b0b0b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.side-event h1 {
+  font-size: 160px;
+  font-family: "Jack";
+}
+.category {
+  margin-bottom: 50px;
+}
+@media (max-width: 769px) {
+  .side-event h1 {
+    font-size: 90px;
+    font-family: "Jack";
+  }
+  .category {
+    margin-bottom: 0px;
+  } 
+  .category img {
+    width: 30vw;
+  }
+}

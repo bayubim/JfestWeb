@@ -1,0 +1,49 @@
+.card-list {
+  width: 75vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  border-top: solid #3c3c3c;
+  padding-top: 100px;
+}
+
+.card-item div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-item h2 {
+  font-family: "Dreadful";
+  letter-spacing: 2px;
+}
+
+.card-item p {
+  font-size: 16px;
+  color: #a7a7a7;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 769px) {
+  .card-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    width: 90vw;
+  }
+
+  .card-item{
+    width: 90vw;
+  }
+
+  .card-item .frame {
+    width: 90vw;
+  }
+
+  .card-list .detail-button{
+    width: 90vw;
+  }
+}

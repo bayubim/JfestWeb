@@ -4,6 +4,7 @@ import Header from "./component/header";
 import About from "./component/about";
 import Footer from "./component/footer";
 import MainEvent from "./component/mainEvent";
+import SideEvent from "./component/sideEvent";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <About />
       <MainEvent />
+      <SideEvent />
       <Footer />
     </div>
   );
