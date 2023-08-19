@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import ButtonDetail from "../asset/Button-Detail.png";
 import FrameLomba from "../asset/frame-lomba.png";
 import FrameKegiatan from "../asset/frame-kegiatan.png";
