@@ -1,0 +1,80 @@
+.event-detail {
+  width: 100vw;
+  background-color: #0b0b0b;
+  height: 100%;
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.event-detail h1 {
+  margin-top: 100px;
+  align-self: flex-start;
+  margin-left: 15vw;
+  font-family: "Dreadful";
+  letter-spacing: 2px;
+}
+.card-list {
+  border-top: none !important;
+  padding-top: 20px !important;
+}
+
+.detail .item-detail {
+  display: flex;
+  gap: 100px;
+}
+.side-detail p {
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #a7a7a7;
+}
+.item-detail h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: "Dreadful";
+}
+.side-detail {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+.side-detail .icon {
+  padding-top: 25px;
+  margin-top: 25px;
+  width: 150px;
+  padding-right: 30vw;
+  border-top: solid #3c3c3c;
+}
+.side-detail .icon-lomba {
+  padding-bottom: 25px;
+  padding-right: 35vw;
+  margin-bottom: 25px;
+  width: 90px;
+  border-bottom: solid #3c3c3c;
+}
+.icon-detail {
+  width: 150px;
+}
+
+@media (max-width: 769px) {
+  .detail .item-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .side-detail .icon {
+    padding-right: 50vw;
+  }
+  .side-detail .icon-lomba {
+    padding-right: 55vw;
+  }
+  .side-detail {
+    width: 80vw;
+  }
+  .icon-detail {
+    width: 100px;
+  }
+}

@@ -6,7 +6,7 @@ import "../styles/mainEvent.css";
 
 const MainEvent = () => {
   return (
-    <div className="main-event">
+    <div className="main-event" id="kegiatan">
       <img className="background-main" src={MainBg} alt="background-main" />
 
       <div className="ticket">

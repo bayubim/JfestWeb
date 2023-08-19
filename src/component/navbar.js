@@ -11,19 +11,19 @@ const NavBar = () => {
           <img className="logo" src={Logo} alt="Backdrop" />
           <ul>
             <li>
-              <a href="/home">BERANDA</a>
+              <a href="#beranda">BERANDA</a>
             </li>
             <li>
-              <a href="/home">TENTANG</a>
+              <a href="#tentang">TENTANG</a>
             </li>
             <li>
-              <a href="/home">KEGIATAN</a>
+              <a href="#kegiatan">KEGIATAN</a>
             </li>
           </ul>
         </div>
 
         <div className="button-login">
-          <a href="https://jfest7.myserverhost.my.id/api/auth/google">
+          <a href="">
             <img className="btn-login" src={BtnDarkLogin} alt="BtnLogin" />
           </a>
           <img className="spiders" src={Spiders} alt="Spiders" />

@@ -22,7 +22,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="header">
+    <div className="header" id="beranda">
       <img
         className="backdrop"
         src={isMobile ? BackdropMobile : Backdrop}

@@ -1,11 +1,12 @@
 .card-list {
-  width: 75vw;
+  width: 90vw;
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 100px;
   justify-content: center;
   border-top: solid #3c3c3c;
   padding-top: 100px;
+  align-items: center;
 }
 
 .card-item div {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "../styles/sideEvent.css";
 import Separator from "../asset/Separator.png";
 import Card from "../component/card";
@@ -7,11 +7,12 @@ import ButtonSemua from "../asset/Button-Semua.png";
 import ButtonLomba from "../asset/Button-Lomba.png";
 
 const SideEvent = () => {
-  const [selectedCategory, setSelectedCategory] = useState('all'); // Default: show all categories
+  const [selectedCategory, setSelectedCategory] = useState("all");
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
   };
+  
 
   return (
     <div className="side-event">
@@ -21,17 +22,17 @@ const SideEvent = () => {
         <img
           src={ButtonSemua}
           alt="button-semua"
-          onClick={() => handleCategoryChange('all')}
+          onClick={() => handleCategoryChange("all")}
         />
         <img
           src={ButtonLomba}
           alt="button-lomba"
-          onClick={() => handleCategoryChange('lomba')}
+          onClick={() => handleCategoryChange("lomba")}
         />
         <img
           src={ButtonKegiatan}
           alt="button-kegiatan"
-          onClick={() => handleCategoryChange('kegiatan')}
+          onClick={() => handleCategoryChange("kegiatan")}
         />
       </div>
       <Card selectedCategory={selectedCategory} />
