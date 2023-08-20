@@ -1,6 +1,5 @@
-import React, { useState } from "react";
 import "../styles/checkout.css";
-import Number1 from "../asset/Number1.svg";
+import Number1 from "../asset/Number1-light.svg";
 import Number2 from "../asset/Number2.svg";
 import Number3 from "../asset/Number3.svg";
 import ButtonBayar from "../asset/ButtonBayar.svg";
@@ -18,15 +17,15 @@ const Checkout = () => {
         <div className="step">
           <ul className="tabs">
             <li className="tab active">
-              <img src={Number1} />
+              <img src={Number1} alt="number" />
               Checkout
             </li>
             <li className="tab">
-              <img src={Number2} />
+              <img src={Number2} alt="number" />
               Payment
             </li>
             <li className="tab">
-              <img src={Number3} />
+              <img src={Number3} alt="number" />
               Review
             </li>
           </ul>
@@ -62,7 +61,7 @@ const Checkout = () => {
           <p>Rp 120.000</p>
         </div>
 
-        <img src={ButtonBayar} />
+        <img src={ButtonBayar} alt="button" />
       </div>
     </div>
   );

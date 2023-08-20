@@ -1,0 +1,105 @@
+.payment {
+  background-color: #0b0b0b;
+  font-family: "Dreadful";
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+}
+.payment .payment-box {
+  padding-top: 150px;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+}
+.detail-payment {
+  width: 50%;
+  margin-right: auto;
+}
+.metode-pembayaran {
+  width: 30%;
+  background-color: #131313;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+}
+.tab {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid #3c3c3c;
+}
+.tab li {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  gap: 10px;
+}
+.detail-container {
+  background-color: #131313;
+  padding: 20px;
+  border-radius: 16px;
+}
+.detail-container div {
+  display: flex;
+  justify-content: space-between;
+}
+.detail-container h1 {
+  margin-bottom: 40px;
+}
+.price-payment {
+  margin-bottom: 20px;
+}
+.price-total-payment {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: solid #3c3c3c;
+}
+.metode-pembayaran ul {
+  width: 100%;
+}
+.metode-pembayaran li {
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  border: 1px solid #3c3c3c;
+  padding: 10px;
+  margin-top: 20px;
+}
+.metode-pembayaran .radio-label {
+  margin-right: auto;
+  color: #848386;
+  font-size: 16px;
+}
+.metode-pembayaran ul li img {
+  margin-left: auto;
+}
+.metode-pembayaran h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.metode-pembayaran .button-bayar {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media (max-width: 769px) {
+  .payment-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .detail-payment {
+    width: 80vw;
+    margin: 0;
+  }
+  .metode-pembayaran {
+    margin-top: 30px;
+    width: 70vw;
+    margin-bottom: 100px;
+  }
+  .tab{
+    justify-content: center;
+  }
+}

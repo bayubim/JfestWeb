@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ButtonDetail from "../asset/Button-Detail.png";
 import FrameLomba from "../asset/frame-lomba.png";
 import FrameKegiatan from "../asset/frame-kegiatan.png";
@@ -76,7 +77,6 @@ export const eventData = [
 ];
 
 const Card = ({ selectedCategory }) => {
-
   const filteredData = eventData.filter((event) => {
     return selectedCategory === "all" || event.category === selectedCategory;
   });
@@ -91,11 +91,13 @@ const Card = ({ selectedCategory }) => {
             <img src={event.icon} alt="kategori-lomba" />
           </div>
           <p>{event.price}</p>
-          <img
-            className="detail-button"
-            src={ButtonDetail}
-            alt="button-detail"
-          />
+          <Link to="/eventDetail">
+            <img
+              className="detail-button"
+              src={ButtonDetail}
+              alt="button-detail"
+            />
+          </Link>
         </div>
       ))}
     </div>
